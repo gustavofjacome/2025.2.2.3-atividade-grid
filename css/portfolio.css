@@ -320,3 +320,81 @@ body {
     color: #2C3E50;
 }
 
+/* Seção Sobre Mim */
+.sobre {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.sobre-conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sobre-conteudo p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #5D6D7E;
+}
+
+.sobre-conteudo h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #2C3E50;
+}
+
+.lista-interesses {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.lista-interesses li {
+    padding: 12px;
+    background-color: #ECF0F1;
+    border-radius: 8px;
+    color: #2C3E50;
+    font-weight: 500;
+}
+
+
+.rodape {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-top: 2px solid #ECF0F1;
+}
+
+.links-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.links-sociais a {
+    color: #2C3E50;
+    font-size: 28px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.links-sociais a:hover {
+    color: #3498DB;
+    transform: translateY(-3px);
+}
+
+.direitos-autorais {
+    color: #7F8C8D;
+    font-size: 14px;
+}
+
