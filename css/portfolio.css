@@ -1,0 +1,88 @@
+/* Reset e Configurações Básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #2C3E50;
+    background-color: #FFFFFF;
+}
+
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.navegacao {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.navegacao a {
+    color: #2C3E50;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navegacao a:hover {
+    color: #3498DB;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 100px 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.apresentacao-conteudo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #2C3E50;
+}
+
+.apresentacao-conteudo .nome {
+    color: #3498DB;
+}
+
+.apresentacao-descricao {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #5D6D7E;
+}
+
+.botao-download {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3498DB;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-download:hover {
+    background-color: #2980B9;
+    transform: translateY(-2px);
+}
+
