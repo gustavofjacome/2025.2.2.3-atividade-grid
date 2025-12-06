@@ -398,3 +398,79 @@ body {
     font-size: 14px;
 }
 
+/*Tablet (768px+) */
+@media (min-width: 768px) {
+    .apresentacao {
+        grid-template-columns: 1fr 1fr;
+        padding: 120px 40px 60px;
+    }
+
+    .apresentacao-conteudo h1 {
+        font-size: 38px;
+    }
+
+    .apresentacao-imagem img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .postagens-grade {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .habilidades-grade {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .item-trabalho {
+        grid-template-columns: 250px 1fr;
+        gap: 25px;
+    }
+
+    .trabalho-imagem img {
+        height: 180px;
+    }
+
+    .lista-interesses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*Desktop (1024px+) */
+@media (min-width: 1024px) {
+    .navegacao {
+        gap: 40px;
+    }
+
+    .apresentacao {
+        padding: 140px 60px 80px;
+    }
+
+    .apresentacao-conteudo h1 {
+        font-size: 44px;
+    }
+
+    .apresentacao-descricao {
+        font-size: 18px;
+    }
+
+    .postagens-recentes {
+        padding: 50px 40px;
+    }
+
+    .trabalhos-destaque,
+    .habilidades,
+    .sobre {
+        padding: 60px 40px;
+    }
+
+    .habilidades-grade {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .item-trabalho {
+        grid-template-columns: 280px 1fr;
+    }
+}
